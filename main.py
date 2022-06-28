@@ -1,2 +1,2 @@
 import funcs
-funcs.parse('data/b11.timing_min.txt')
+arr = funcs.parse('data/b11.timing_min.txt')
