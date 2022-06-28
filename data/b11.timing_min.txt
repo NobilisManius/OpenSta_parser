@@ -1,0 +1,607 @@
+Startpoint: id00302 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00297 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00302/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00302/Q (DFFPRPQ)
+   0.052764    0.690793    0.578757    1.160225 ^ id00813_46/Y (sb_mx16vg)
+               0.690793    0.000000    1.160225 ^ id00297/D (DFFPRPQ)
+                                       1.160225   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00297/CK (DFFPRPQ)
+                          -0.362182   -0.362182   library hold time
+                                      -0.362182   data required time
+---------------------------------------------------------------------------------------
+                                      -0.362182   data required time
+                                      -1.160225   data arrival time
+---------------------------------------------------------------------------------------
+                                       1.522407   slack (MET)
+
+
+Startpoint: id00300 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00298 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00300/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00300/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00815_2/Y (sb_mx16vg)
+   0.000000    0.552988    0.701954    1.672924 ^ id00209/LQ (LUT3)
+               0.552988    0.000000    1.672924 ^ id00298/D (DFFPRPQ)
+                                       1.672924   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00298/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -1.672924   data arrival time
+---------------------------------------------------------------------------------------
+                                       1.979431   slack (MET)
+
+
+Startpoint: id00301 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00301 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00301/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00301/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00812_33/Y (sb_mx16vg)
+   0.000000    0.552988    0.896013    1.866982 ^ id00211/LQ (LUT3)
+               0.552988    0.000000    1.866982 ^ id00301/D (DFFPRPQ)
+                                       1.866982   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00301/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -1.866982   data arrival time
+---------------------------------------------------------------------------------------
+                                       2.173489   slack (MET)
+
+
+Startpoint: id00310 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00310 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00310/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00310/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00793_12/Y (sb_mx16vg)
+   0.000000    0.552988    0.896013    1.866982 ^ id00236/LQ (LUT3)
+               0.552988    0.000000    1.866982 ^ id00310/D (DFFPRPQ)
+                                       1.866982   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00310/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -1.866982   data arrival time
+---------------------------------------------------------------------------------------
+                                       2.173489   slack (MET)
+
+
+Startpoint: id00311 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00311 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00311/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00311/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00794_9/Y (sb_mx16vg)
+   0.000000    0.552988    0.896013    1.866982 ^ id00235/LQ (LUT3)
+               0.552988    0.000000    1.866982 ^ id00311/D (DFFPRPQ)
+                                       1.866982   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00311/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -1.866982   data arrival time
+---------------------------------------------------------------------------------------
+                                       2.173489   slack (MET)
+
+
+Startpoint: id00312 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00312 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00312/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00312/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00791_43/Y (sb_mx16vg)
+   0.000000    0.552988    0.896013    1.866982 ^ id00234/LQ (LUT3)
+               0.552988    0.000000    1.866982 ^ id00312/D (DFFPRPQ)
+                                       1.866982   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00312/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -1.866982   data arrival time
+---------------------------------------------------------------------------------------
+                                       2.173489   slack (MET)
+
+
+Startpoint: id00313 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00313 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00313/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00313/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00792_40/Y (sb_mx16vg)
+   0.000000    0.552988    0.896013    1.866982 ^ id00233/LQ (LUT3)
+               0.552988    0.000000    1.866982 ^ id00313/D (DFFPRPQ)
+                                       1.866982   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00313/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -1.866982   data arrival time
+---------------------------------------------------------------------------------------
+                                       2.173489   slack (MET)
+
+
+Startpoint: id00314 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00314 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00314/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00314/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00789_2/Y (sb_mx16vg)
+   0.000000    0.552988    0.896013    1.866982 ^ id00232/LQ (LUT3)
+               0.552988    0.000000    1.866982 ^ id00314/D (DFFPRPQ)
+                                       1.866982   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00314/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -1.866982   data arrival time
+---------------------------------------------------------------------------------------
+                                       2.173490   slack (MET)
+
+
+Startpoint: id00315 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00315 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00315/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00315/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00790_12/Y (sb_mx16vg)
+   0.000000    0.552988    0.896013    1.866982 ^ id00231/LQ (LUT3)
+               0.552988    0.000000    1.866982 ^ id00315/D (DFFPRPQ)
+                                       1.866982   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00315/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -1.866982   data arrival time
+---------------------------------------------------------------------------------------
+                                       2.173489   slack (MET)
+
+
+Startpoint: id00329 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00329 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00329/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00329/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00785_41/Y (sb_mx16vg)
+   0.000000    0.552988    0.896013    1.866982 ^ id00216/LQ (LUT3)
+               0.552988    0.000000    1.866982 ^ id00329/D (DFFPRPQ)
+                                       1.866982   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00329/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -1.866982   data arrival time
+---------------------------------------------------------------------------------------
+                                       2.173489   slack (MET)
+
+
+Startpoint: id00330 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00330 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00330/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00330/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00780_21/Y (sb_mx16vg)
+   0.000000    0.552988    0.896013    1.866982 ^ id00215/LQ (LUT3)
+               0.552988    0.000000    1.866982 ^ id00330/D (DFFPRPQ)
+                                       1.866982   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00330/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -1.866982   data arrival time
+---------------------------------------------------------------------------------------
+                                       2.173489   slack (MET)
+
+
+Startpoint: id00298 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00296 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00298/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00298/Q (DFFPRPQ)
+   0.022844    0.199150    0.243859    0.825327 ^ id00809_4/Y (sb_mx4g)
+   0.030439    0.238623    0.325032    1.150358 ^ id00809_3/Y (sb_mx4g)
+   0.015220    0.161548    0.279522    1.429880 ^ id00809_2/Y (sb_mx4g)
+   0.022873    0.199708    0.285912    1.715793 ^ id00809_1/Y (sb_mx4g)
+   0.000000    0.413969    0.443037    2.158830 ^ id00809_0/Y (sb_mx16vg)
+   0.000000    0.552988    0.701983    2.860813 ^ id00214/LQ (LUT3)
+               0.552988    0.000000    2.860813 ^ id00296/D (DFFPRPQ)
+                                       2.860813   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00296/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -2.860813   data arrival time
+---------------------------------------------------------------------------------------
+                                       3.167320   slack (MET)
+
+
+Startpoint: id00299 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00299 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00299/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00299/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00814_28/Y (sb_mx16vg)
+   0.072265    0.952045    1.196446    2.167416 v id00104/LQ (LUT3)
+   0.236063    0.262034    1.075034    3.242450 v id00666_15/Q (le0_LQ_Q)
+   0.000000    0.239498    0.449209    3.691659 v id00666_14/Y (sb_mx16vg)
+   0.000000    0.552988    0.657413    4.349072 ^ id00213/LQ (LUT3)
+               0.552988    0.000000    4.349072 ^ id00299/D (DFFPRPQ)
+                                       4.349072   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00299/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -4.349072   data arrival time
+---------------------------------------------------------------------------------------
+                                       4.655579   slack (MET)
+
+
+Startpoint: id00324 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00324 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00324/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00324/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00782_66/Y (sb_mx16vg)
+   0.072265    0.952045    1.196446    2.167416 v id00111/LQ (LUT3)
+   0.251282    0.275772    1.087053    3.254469 v id00719_0/Q (le0_LQ_Q)
+   0.000000    0.239548    0.453612    3.708081 v id00719_1/Y (sb_mx16vg)
+   0.000000    0.552988    0.657426    4.365507 ^ id00221/LQ (LUT3)
+               0.552988    0.000000    4.365507 ^ id00324/D (DFFPRPQ)
+                                       4.365507   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00324/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -4.365507   data arrival time
+---------------------------------------------------------------------------------------
+                                       4.672014   slack (MET)
+
+
+Startpoint: id00316 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00316 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00316/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00316/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00774_5/Y (sb_mx16vg)
+   0.072265    0.952045    1.329194    2.300163 v id00059/LQ (LUT3)
+   0.258906    0.282654    1.093074    3.393237 v id00624_0/Q (le0_LQ_Q)
+   0.000000    0.239573    0.455818    3.849055 v id00624_1/Y (sb_mx16vg)
+   0.000000    0.552988    0.519473    4.368528 ^ id00230/LQ (LUT3)
+               0.552988    0.000000    4.368528 ^ id00316/D (DFFPRPQ)
+                                       4.368528   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00316/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -4.368528   data arrival time
+---------------------------------------------------------------------------------------
+                                       4.675035   slack (MET)
+
+
+Startpoint: id00317 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00317 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00317/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00317/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00775_8/Y (sb_mx16vg)
+   0.072265    0.952045    1.329194    2.300163 v id00065/LQ (LUT3)
+   0.258906    0.282654    1.093074    3.393237 v id00638_1/Q (le0_LQ_Q)
+   0.000000    0.239573    0.455818    3.849055 v id00638_0/Y (sb_mx16vg)
+   0.000000    0.552988    0.519473    4.368528 ^ id00229/LQ (LUT3)
+               0.552988    0.000000    4.368528 ^ id00317/D (DFFPRPQ)
+                                       4.368528   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00317/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -4.368528   data arrival time
+---------------------------------------------------------------------------------------
+                                       4.675035   slack (MET)
+
+
+Startpoint: id00318 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00318 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00318/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00318/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00776_13/Y (sb_mx16vg)
+   0.072265    0.952045    1.329194    2.300163 v id00066/LQ (LUT3)
+   0.258906    0.282654    1.093074    3.393237 v id00636_1/Q (le0_LQ_Q)
+   0.000000    0.239573    0.455818    3.849055 v id00636_0/Y (sb_mx16vg)
+   0.000000    0.552988    0.519473    4.368528 ^ id00228/LQ (LUT3)
+               0.552988    0.000000    4.368528 ^ id00318/D (DFFPRPQ)
+                                       4.368528   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00318/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -4.368528   data arrival time
+---------------------------------------------------------------------------------------
+                                       4.675035   slack (MET)
+
+
+Startpoint: id00319 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00319 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00319/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00319/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00777_18/Y (sb_mx16vg)
+   0.072265    0.952045    1.329194    2.300163 v id00067/LQ (LUT3)
+   0.258906    0.282654    1.093074    3.393237 v id00635_0/Q (le0_LQ_Q)
+   0.000000    0.239573    0.455818    3.849055 v id00635_1/Y (sb_mx16vg)
+   0.000000    0.552988    0.519473    4.368528 ^ id00227/LQ (LUT3)
+               0.552988    0.000000    4.368528 ^ id00319/D (DFFPRPQ)
+                                       4.368528   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00319/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -4.368528   data arrival time
+---------------------------------------------------------------------------------------
+                                       4.675035   slack (MET)
+
+
+Startpoint: id00320 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00320 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00320/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00320/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00778_3/Y (sb_mx16vg)
+   0.072265    0.952045    1.329194    2.300163 v id00068/LQ (LUT3)
+   0.258906    0.282654    1.093074    3.393237 v id00681_0/Q (le0_LQ_Q)
+   0.000000    0.239573    0.455818    3.849055 v id00681_1/Y (sb_mx16vg)
+   0.000000    0.552988    0.519473    4.368528 ^ id00226/LQ (LUT3)
+               0.552988    0.000000    4.368528 ^ id00320/D (DFFPRPQ)
+                                       4.368528   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00320/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -4.368528   data arrival time
+---------------------------------------------------------------------------------------
+                                       4.675035   slack (MET)
+
+
+Startpoint: id00328 (rising edge-triggered flip-flop clocked by clock)
+Endpoint: id00328 (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+               0.000000    0.000000    0.000000 ^ id00328/CK (DFFPRPQ)
+   0.000000    0.027153    0.581467    0.581467 ^ id00328/Q (DFFPRPQ)
+   0.000000    0.413850    0.389502    0.970969 ^ id00786_23/Y (sb_mx16vg)
+   0.072265    0.952045    1.329194    2.300163 v id00174/LQ (LUT3)
+   0.258906    0.282654    1.093074    3.393237 v id00435_1/Q (le0_LQ_Q)
+   0.000000    0.239573    0.455818    3.849055 v id00435_0/Y (sb_mx16vg)
+   0.000000    0.552988    0.519473    4.368528 ^ id00217/LQ (LUT3)
+               0.552988    0.000000    4.368528 ^ id00328/D (DFFPRPQ)
+                                       4.368528   data arrival time
+
+               0.000000    0.000000    0.000000   clock clock (rise edge)
+                           0.000000    0.000000   clock network delay (ideal)
+                           0.000000    0.000000   clock reconvergence pessimism
+                                       0.000000 ^ id00328/CK (DFFPRPQ)
+                          -0.306507   -0.306507   library hold time
+                                      -0.306507   data required time
+---------------------------------------------------------------------------------------
+                                      -0.306507   data required time
+                                      -4.368528   data arrival time
+---------------------------------------------------------------------------------------
+                                       4.675035   slack (MET)
+
+
